@@ -3,8 +3,8 @@ package guru.springfamework.repositories;
 import guru.springfamework.domain.Customer;
 import org.springframework.data.jpa.repository.JpaRepository;
 
-public interface CustomerRepository extends JpaRepository<Customer, Long> {
-
-    Customer findByLastName(String lastName);
-
+/**
+ * Created by jt on 9/27/17.
+ */
+public interface CustomerRepository extends JpaRepository<Customer, Long>{
 }
